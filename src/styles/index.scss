@@ -1,6 +1,18 @@
-$body-color: slateblue;
+@import "components/banner.scss";
+@import "components/section.scss";
+@import "components/navbar.scss";
+@import "components/footer.scss";
+// general styling
+$body-color: black;
 
 body {
   color: $body-color;
   font-family: sans-serif;
 }
+
+.typed-cursor {
+  color: black;
+  font-weight: light;
+}
+
+

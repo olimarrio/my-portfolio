@@ -1,3 +1,6 @@
 import '../styles/index.scss';
+import { loadDynamicBannerText } from "./components/banner.js";
 
-console.log('webpack starterkit');
+
+// function calls
+loadDynamicBannerText();

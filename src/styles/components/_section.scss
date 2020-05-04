@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 94px 0px;
+}
+.section-dark {
+  background-color: #F6F9FC;
+  box-shadow: 0 10px 30px rgba(0,0,0, 0.1)
+}
+
+.section-light {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+
+#about-me {
+  text-align: center;
+  h1:before, h1:after{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background: #225277;
+    margin: 0 10px;
+  }
+}

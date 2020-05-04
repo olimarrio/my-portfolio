@@ -1,0 +1,42 @@
+.navbar-home {
+  padding: 20px 0px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  background: transparent;
+  width: 100vw;
+  box-shadow: none;
+  transition: all 0.6s ease-out;
+}
+
+.navbar-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+}
+
+#navbar-text {
+  color: white;
+  font-size: 16px;
+}
+
+.navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.top {
+  height: 1px;
+  width: 30%;
+  align-items: center;
+  color: white;
+  background-color: white;
+  border: none;
+  opacity: 0.6;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
