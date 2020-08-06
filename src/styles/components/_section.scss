@@ -4,6 +4,7 @@ html {
 
 .section {
   padding: 94px 0px;
+  text-align: center;
 }
 .section-dark {
   background-color: #F6F9FC;
@@ -14,8 +15,13 @@ html {
   box-shadow: 0 10px 30px rgba(0,0,0,0.1)
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #about-me {
-  text-align: center;
   h1:before, h1:after{
     content: '';
     width: 75px;
@@ -24,3 +30,10 @@ html {
     margin: 0 10px;
   }
 }
+
+.about-text-left {
+  width: 50%;
+  padding: 0 10px;
+}
+
+
